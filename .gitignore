@@ -1,0 +1,8 @@
+node_modules/
+package-lock.json
+.pg_token
+.env
+.env.avnadmin
+.DS_Store
+# Optional editor folders
+.vscode/

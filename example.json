@@ -1,0 +1,294 @@
+[
+  {
+    "token": "g5joc4tj",
+    "orderId": 54537596,
+    "adNumber": 48741356,
+    "adType": "private",
+    "categoryId": 2,
+    "subcategoryId": 2,
+    "priority": 1,
+    "statusId": 1,
+    "price": 0,
+    "furnitureInfo": "דירה גדולה מרוהטת חלקית בקומה ראשונה\nכולל גינה ודשא",
+    "additionalDetails": {
+      "balconiesCount": 2,
+      "entranceDate": "2025-06-24T00:00:00",
+      "squareMeter": 160,
+      "roomsCount": 4,
+      "propertyGroup": { "id": 2, "text": "בתים", "textEng": "houses" },
+      "property": { "id": 5, "text": "בית פרטי/ קוטג'", "textEng": "cottage" },
+      "parkingSpacesCount": 2,
+      "propertyCondition": { "id": 2, "text": "משופץ" },
+      "squareMeterBuild": 160,
+      "squareMeterGarden": 250,
+      "buildingTopFloor": 2
+    },
+    "inProperty": {
+      "includeAirconditioner": true,
+      "includeBalcony": true,
+      "includeFurniture": true,
+      "includeParking": true,
+      "includeSecurityRoom": false,
+      "isImmediateEntrance": true,
+      "includeRavBariach": true
+    },
+    "searchText": "שם מוכר שמחה נכס להשכרה מסוג בית פרטי/ קוטג' מספר חדרים 4 בקומה 1 בכתובת הדקל 3 אחיטוב אחיטוב אזור אזור צפון השרון שרון הנכס כולל ריהוט חניה מיזוג מרפסת מצב הנכס משופץ מספר תשלומים 12 כניסה מיידית תאור לקוח השכרה, בית פרטי/ קוטג', קומה 1, אחיטוב הדקל 3 דירה גדולה מרוהטת חלקית בקומה ראשונה\nכולל גינה ודשא ",
+    "customer": {
+      "name": "שמחה",
+      "id": 2558658,
+      "phone": "050-6611005",
+      "brokerPhone": "050-6611005"
+    },
+    "address": {
+      "topArea": { "id": 19, "text": "שרון", "textEng": "sharon_area" },
+      "area": {
+        "id": 70,
+        "text": "אזור צפון השרון",
+        "textEng": "sharon_north"
+      },
+      "city": { "id": "0850", "text": "אחיטוב" },
+      "neighborhood": { "id": 990229, "text": "אחיטוב" },
+      "street": { "id": "0101", "text": "הדקל" },
+      "coords": { "lat": 32.384669, "lon": 34.992188 },
+      "house": { "number": 3, "floor": 1 },
+      "addressMasterId": 9677189
+    },
+    "metaData": {
+      "coverImage": "https://img.yad2.co.il/Pic/202506/24/2_2/o/y2_1_09371_20250624125037.jpeg",
+      "images": [
+        "https://img.yad2.co.il/Pic/202506/24/2_2/o/y2_1_09371_20250624125037.jpeg",
+        "https://img.yad2.co.il/Pic/202410/31/2_2/o/y2_2_03596_20241031095810.jpeg",
+        "https://img.yad2.co.il/Pic/202410/31/2_2/o/y2_3_02973_20241031095845.jpeg",
+        "https://img.yad2.co.il/Pic/202410/31/2_2/o/y2_4_05709_20241031095855.jpeg",
+        "https://img.yad2.co.il/Pic/202410/31/2_2/o/y2_5_03242_20241031095906.jpeg",
+        "https://img.yad2.co.il/Pic/202410/31/2_2/o/y2_6_03390_20241031095917.jpeg",
+        "https://img.yad2.co.il/Pic/202410/31/2_2/o/y2_7_05954_20241031095929.jpeg",
+        "https://img.yad2.co.il/Pic/202410/31/2_2/o/y2_8_01660_20241031095938.jpeg",
+        "https://img.yad2.co.il/Pic/202410/31/2_2/o/y2_9_09022_20241031095957.jpeg",
+        "https://img.yad2.co.il/Pic/202410/31/2_2/o/y2_10_01019_20241031100008.jpeg"
+      ],
+      "description": "השכרה, בית פרטי/ קוטג', קומה 1, אחיטוב"
+    },
+    "dates": {
+      "updatedAt": "2025-09-03T09:44:04",
+      "createdAt": "2024-10-31T06:33:37",
+      "endsAt": "2025-10-05T00:00:00",
+      "rebouncedAt": "2025-09-03T09:44:03"
+    },
+    "abovePrice": "0",
+    "paymentsInYear": 12
+  },
+  {
+    "token": "33zgy05m",
+    "orderId": 55350291,
+    "adNumber": 87505697,
+    "adType": "commercial",
+    "categoryId": 2,
+    "subcategoryId": 6,
+    "priority": 1,
+    "statusId": 1,
+    "price": 6200,
+    "additionalDetails": {
+      "balconiesCount": 1,
+      "entranceDate": "2025-05-06T00:00:00",
+      "squareMeter": 125,
+      "roomsCount": 4,
+      "propertyGroup": { "id": 1, "text": "דירות ", "textEng": "apartments" },
+      "property": { "id": 1, "text": "דירה", "textEng": "apartment" },
+      "parkingSpacesCount": 1,
+      "propertyCondition": { "id": 6, "text": "חדש (גרו בנכס)" },
+      "buildingTopFloor": 19
+    },
+    "inProperty": {
+      "includeAirconditioner": true,
+      "includeBalcony": true,
+      "includeBoiler": true,
+      "includeElevator": true,
+      "includeParking": true,
+      "includeSecurityRoom": true,
+      "isHandicapped": true,
+      "isImmediateEntrance": true,
+      "includeRavBariach": true
+    },
+    "searchText": "שם מוכר בית הנדלן בית הנדלן רועי כהן נכס להשכרה מסוג דירה מספר חדרים 4 בקומה 11 בכתובת צה\"ל חדרה אזור אזור חדרה והסביבה חדרה, זכרון והעמקים הנכס כולל ממ\"ד מעלית חניה מיזוג גישה לנכים מרפסת מצב הנכס חדש (גרו בנכס) מספר תשלומים 12 כניסה מיידית תאור לקוח להשכרה דירת 4 חדרים ענקית ומשודרגת , קומה 11 , חניה + מרפסת מפנקת , פרויקט מושקע ועשיר , מכון כושר ופארק לדיירים !\nכניסה מיידית :) להשכרה בפרויקט החדש צה\"ל 20! בית הנדל\"ן הינה חברת הנדל\"ן היחידה שמכשירה מתווכים להיות אנשי נדל\"ן.החברה בעלת 12 שנות ניסיון בתחום הנדל\"ן.משרדינו מספקים את כל המידע והשירותים בכדי לבצע עסקאות נדל\"ן רווחיות, מהעסקאות הפשוטות ועד המורכבות ביותר. \nמטרתנו היא ללוות את לקוחותינו בתהליך מכירת ורכישת נכס תוך מתן הידע והבטחון הנדרש לקידום התהליך ולקבלת \nההחלטות הנכונות.\nבעזרת שיטות שיווק מתקדמות, צוות מיומן, מאגר לקוחות ונכסים ענק ומעטפת של בעלי המקצועות המומחים והאמינים ביותר. \nאנו נכונים להעניק שירות מקיף שנוגע בכלל צרכי הלקוח, בד סוכנות בית הנדלן ",
+    "customer": {
+      "name": "רועי כהן",
+      "id": 5148346,
+      "phone": "053-2703662",
+      "isVirtualPhoneNumber": true,
+      "agencyName": "בית הנדלן",
+      "agencyLogo": "//images.yad2.co.il/Pic/TivMiniSite/ee2b3b55-9a1a-4700-a8f6-9d9987229786.png?t=1758961354940",
+      "brokerAvatar": "https://img.yad2.co.il/Pic/TradeMiniSite/y2_1_04876_20210309110310.jpeg?t=1758961360238",
+      "agencyAbout": "בית הנדל\"ן הינה חברת הנדל\"ן היחידה שמכשירה מתווכים להיות אנשי נדל\"ן.החברה בעלת 12 שנות ניסיון בתחום הנדל\"ן.משרדינו מספקים את כל המידע והשירותים בכדי לבצע עסקאות נדל\"ן רווחיות, מהעסקאות הפשוטות ועד המורכבות ביותר. \nמטרתנו היא ללוות את לקוחותינו בתהליך מכירת ורכישת נכס תוך מתן הידע והבטחון הנדרש לקידום התהליך ולקבלת \nההחלטות הנכונות.\nבעזרת שיטות שיווק מתקדמות, צוות מיומן, מאגר לקוחות ונכסים ענק ומעטפת של בעלי המקצועות המומחים והאמינים ביותר. \nאנו נכונים להעניק שירות מקיף שנוגע בכלל צרכי הלקוח, בד",
+      "brokerPhone": "053-2703662",
+      "brokers": [
+        {
+          "name": "רועי כהן",
+          "phone": "053-2703662",
+          "avatar": "https://img.yad2.co.il/Pic/TradeMiniSite/y2_1_04876_20210309110310.jpeg?t=1758961360238",
+          "id": "7712",
+          "licenseNumber": "3167476"
+        }
+      ],
+      "licenseNumber": 88888888
+    },
+    "packages": {
+      "hasBrokerOfficeLeftPromotion": true,
+      "hasMiniSite": true,
+      "isPlatinum": true,
+      "isPlatinumMobile": true,
+      "isTrio": true
+    },
+    "address": {
+      "topArea": {
+        "id": 101,
+        "text": "חדרה, זכרון והעמקים",
+        "textEng": "hadera_zichron_valley"
+      },
+      "area": {
+        "id": 15,
+        "text": "אזור חדרה והסביבה",
+        "textEng": "hadera_area"
+      },
+      "city": { "id": 6500, "text": "חדרה" },
+      "neighborhood": { "id": 140 },
+      "street": { "id": "0104", "text": "צה\"ל" },
+      "coords": { "lat": 32.4392200517241, "lon": 34.9296170344828 },
+      "house": { "floor": 11 },
+      "addressMasterId": 5991661
+    },
+    "metaData": {
+      "video": "https://s3.eu-west-1.amazonaws.com/videos.yad2.co.il/Video/202505/06/2_6/o/y2_1_010171_20250506165310.mp4",
+      "coverImage": "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010528_20250506165243.jpeg",
+      "images": [
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010528_20250506165243.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010019_20250506165243.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010398_20250506165243.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010853_20250506165243.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010329_20250506165243.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010100_20250506165243.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010167_20250506165243.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010730_20250506165243.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010248_20250506165243.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010142_20250506165243.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010772_20250506165243.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010370_20250506165244.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010766_20250506165302.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010569_20250506165302.jpeg",
+        "https://img.yad2.co.il/Pic/202505/06/2_6/o/y2_1pa_010427_20250506165302.jpeg"
+      ],
+      "description": "להשכרה דירת 4 חדרים ענקית ומשודרגת , קומה 11 , חניה + מרפסת מפנקת , פרויקט מושקע ועשיר , מכון כושר ופארק לדיירים !\nכניסה מיידית :)"
+    },
+    "dates": {
+      "updatedAt": "2025-09-27T11:22:25",
+      "createdAt": "2025-05-06T13:53:25",
+      "endsAt": "2026-02-28T00:00:00",
+      "rebouncedAt": "2025-09-27T11:22:25"
+    },
+    "abovePrice": "5000",
+    "houseCommittee": 700,
+    "paymentsInYear": 12
+  },
+  {
+    "data": {
+      "token": "01ej3wxb",
+      "orderId": 56004214,
+      "adNumber": 73819535,
+      "adType": "private",
+      "categoryId": 2,
+      "subcategoryId": 2,
+      "priority": 1,
+      "statusId": 1,
+      "price": 6300,
+      "additionalDetails": {
+        "balconiesCount": 1,
+        "entranceDate": "2025-10-01T00:00:00",
+        "squareMeter": 100,
+        "roomsCount": 4,
+        "propertyGroup": {
+          "id": 1,
+          "text": "דירות ",
+          "textEng": "apartments"
+        },
+        "property": {
+          "id": 1,
+          "text": "דירה",
+          "textEng": "apartment"
+        },
+        "propertyCondition": {
+          "id": 2,
+          "text": "משופץ"
+        },
+        "squareMeterBuild": 100,
+        "buildingTopFloor": 6
+      },
+      "inProperty": {
+        "includeAirconditioner": true,
+        "includeBalcony": true,
+        "includeBoiler": true,
+        "includeElevator": true,
+        "includeSecurityRoom": false,
+        "isImmediateEntrance": true
+      },
+      "searchText": "שם מוכר יפה נכס להשכרה מסוג דירה מספר חדרים 4 בקומה 2 בכתובת אברמוביץ' 7 אברמוביץ' ראשון לציון אזור אזור ראשון לציון והסביבה מרכז הנכס כולל מעלית מיזוג מרפסת מצב הנכס משופץ מספר תשלומים 10 כניסה מיידית תאור לקוח ברח' אברמוביץ דירת 4 חדרים מרווחת ומוארת, שירותים כפולים, בקומה שניה בבניין עם מעלית. מיזוג בחדרים, דוד שמש, מקלט בבניין. חימום מים מרכזי בבניין (מאפשר מים חמים לכל אורך שעות היום.\nבניין שסיים שיפוץ : מרפסת של 12 מ\"ר. שיפוץ לובי כולל, מעלית, מערכת ביוב חדשה. קרובה לתחבורה ציבורית, מכולת שכונתית/ סופר, סמוכה לביה\"ס \"שלמון\" וגני ילדים וקירבה למרכז העיר. אברמוביץ' 7 ",
+      "customer": {
+        "name": "יפה",
+        "id": 9003013,
+        "phone": "054-6435751",
+        "brokerPhone": "054-6435751"
+      },
+      "address": {
+        "topArea": {
+          "id": 2,
+          "text": "מרכז",
+          "textEng": "hamerkaz_area"
+        },
+        "area": {
+          "id": 9,
+          "text": "אזור ראשון לציון והסביבה",
+          "textEng": "rishon_leziion_area"
+        },
+        "city": {
+          "id": 8300,
+          "text": "ראשון לציון"
+        },
+        "neighborhood": {
+          "id": 287,
+          "text": "אברמוביץ'"
+        },
+        "street": {
+          "id": "0813",
+          "text": "אברמוביץ'"
+        },
+        "coords": {
+          "lat": 31.973049,
+          "lon": 34.800769
+        },
+        "house": {
+          "number": 7,
+          "floor": 2
+        },
+        "addressMasterId": 6022263
+      },
+      "metaData": {
+        "coverImage": "https://img.yad2.co.il/Pic/202510/01/2_2/o/y2_1_01863_20251001123817.jpeg",
+        "images": [
+          "https://img.yad2.co.il/Pic/202510/01/2_2/o/y2_1_01863_20251001123817.jpeg",
+          "https://img.yad2.co.il/Pic/202510/01/2_2/o/y2_2_01808_20251001123820.jpeg"
+        ],
+        "description": "ברח' אברמוביץ דירת 4 חדרים מרווחת ומוארת, שירותים כפולים, בקומה שניה בבניין עם מעלית. מיזוג בחדרים, דוד שמש, מקלט בבניין. חימום מים מרכזי בבניין (מאפשר מים חמים לכל אורך שעות היום.\nבניין שסיים שיפוץ : מרפסת של 12 מ\"ר. שיפוץ לובי כולל, מעלית, מערכת ביוב חדשה. קרובה לתחבורה ציבורית, מכולת שכונתית/ סופר, סמוכה לביה\"ס \"שלמון\" וגני ילדים וקירבה למרכז העיר."
+      },
+      "dates": {
+        "updatedAt": "2025-10-01T12:38:22",
+        "createdAt": "2025-10-01T12:31:32",
+        "endsAt": "2025-11-10T00:00:00",
+        "rebouncedAt": "2025-10-01T12:31:41"
+      },
+      "abovePrice": "5000",
+      "propertyTax": 1100,
+      "houseCommittee": 200,
+      "paymentsInYear": 10
+    },
+    "message": "OK"
+  }
+]

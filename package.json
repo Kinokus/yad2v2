@@ -1,0 +1,15 @@
+{
+  "name": "yad2v2",
+  "version": "1.0.0",
+  "description": "yad2 visualisation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "pg": "^8.16.3"
+  }
+}
