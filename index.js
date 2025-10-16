@@ -29,50 +29,39 @@ function start() {
   client
     .connect()
     .then(() => {
-      fs.readdir(".", (err, files) => {
+      fs.readdir(".", async (err, files) => {
         if (err) throw err;
         for (let file of files) {
           if (file.endsWith(".json") && file.startsWith("gw.yad2")) {
-            fs.readFile(file, "utf8", async (err, data) => {
-              if (err) {
-                console.error(`Error reading ${file}:`, err);
-                return;
-              }
+            try {
+              const data = fs.readFileSync(file, "utf8");
+              const json = JSON.parse(data);
               try {
-                const json = JSON.parse(data);
-                // Insert into yad2jsons table
-                try {
-                  await client.query(
-                    "INSERT " +
-                      "INTO " +
-                      "yad2.yad2_jsons " +
-                      "(json_data) " +
-                      "VALUES ($1) " +
-                      "ON CONFLICT (token) " +
-                      "DO " +
-                      "UPDATE SET json_data = EXCLUDED.json_data",
-                    [JSON.stringify(json.data)]
-                  );
+                await client.query(
+                  "INSERT " +
+                    "INTO " +
+                    "yad2.yad2_jsons " +
+                    "(json_data) " +
+                    "VALUES ($1) " +
+                    "ON CONFLICT (token) " +
+                    "DO " +
+                    "UPDATE SET json_data = EXCLUDED.json_data",
+                  [JSON.stringify(json.data)]
+                );
 
-                  fs.unlink(file, (err) => {
-                    if (err) {
-                      console.error(`Error deleting ${file}:`, err);
-                    } else {
-                      console.log(`Deleted ${file}`);
-                    }
-                  });
+                fs.unlinkSync(file);
 
-                  log(`Inserted ${file} into public.yad2jsons`);
-                } catch (dbErr) {
-                  console.error(`DB error for ${file}:`, dbErr);
-                }
-              } catch (parseErr) {
-                console.error(`Error parsing ${file}:`, parseErr);
+                log(`Inserted ${file} into public.yad2jsons`);
+              } catch (dbErr) {
+                console.error(`DB error for ${file}:`, dbErr);
               }
-            });
+            } catch (err) {
+              console.error(`Error reading ${file}:`, err);
+            }
           }
         }
         console.log("Processing complete.");
+        client.end();
       });
     })
     .catch((err) => {
